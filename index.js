@@ -15,5 +15,5 @@ function deleteFromObjectByKey(object, key) {
   delete obj[recipes]
 }
 function destructivelyDeleteFromObjectByKey(object, key) {Object.assign({prop:1}, {prop2:2})
-delete object[prop]
+delete object.prop
 }
