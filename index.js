@@ -6,8 +6,10 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
+  obj[key] = value
+  return obj
  const recipes = {prop:1}, {prop2:2}
-return object.prop2 =2
+
   
 }
 function deleteFromObjectByKey(object, key) {
