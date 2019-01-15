@@ -9,10 +9,9 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   object[key] = value
   return object
  object[prop] =1, object[prop2] = 2
-
-  
 }
 function deleteFromObjectByKey(object, key) {
+  object
   
 }
 function destructivelyDeleteFromObjectByKey(object, key) {
